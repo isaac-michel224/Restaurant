@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 // import './index.css';
 // import App from './App.js';
 import reportWebVitals from './reportWebVitals';
+import Navbar from './components/Navbar';
 
 import {
 BrowserRouter as Router,
@@ -41,7 +42,7 @@ class About extends Component {
 // Menu component
 
 class Menu extends Component {
-  render(){
+  render() {
     return(
       <div>
         <h1>Menu</h1>
@@ -57,17 +58,17 @@ class Menu extends Component {
   }
 }
 
-class Navbar extends Component {
-  render() {
-    return (
-      <div className="nav">
-        <Link to="/">Home</Link>
-        <Link to="menu">Menu</Link>
-        <Link to="about">About</Link>
-      </div>
-    )
-  }
-}
+// class Navbar extends Component {
+//   render() {
+//     return (
+//       <div className="nav">
+//         <Link to="/">Home</Link>
+//         <Link to="menu">Menu</Link>
+//         <Link to="about">About</Link>
+//       </div>
+//     )
+//   }
+// }
 
 class Routes extends Component {
   render () {
